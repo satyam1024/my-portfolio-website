@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="chatstyle.css">
+</head>
+
+<body>
+    <header>
+       
+        <div class="logo">My Website</div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#heading">Projects</a></li>
+                <li><a href="https://linktr.ee/satyam_kathait">Link Tree</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </nav>
+ 
+    </header>
+
+    <main>
+        <div class="intro">
+            <button class="button" onclick="plusDivs(-1)">&#10094;</button>
+
+            <div class="slides">
+                <img src="pic/3.jpg"  alt="1" class="mySlides" >
+                <div class="imageText">
+                    <p>Hello there,<br>I am Satyam Kathait</p>
+                </div>
+                
+            </div>
+            <div class="slides">
+                <img  src="pic/2.jpg" alt="2" class="mySlides">
+                <div class="imageText">
+                    <p>Welcome to my portfolio website</p>
+                </div>
+            </div>
+            <div class="slides">
+                <img  src="pic/1.jpg" alt="3"  class="mySlides">
+                <div class="imageText">
+                    <p >i can't think of anything to write here</p>
+                </div>
+            </div>
+            <div class="slides">
+                <img  src="pic/4.jpg" alt="4" class="mySlides">
+                <div class="imageText">
+                    <p>what did you expect this is under construction</p>
+                </div>
+            </div>
+
+            <button class="button" onclick="plusDivs(+1)">&#10095;</button>
+        </div>
+   
+      
+       
+
+ 
+        <div class="content">
+
+            <section class="projects">
+                <p id="heading">Projects</p>
+                <ul>
+                    <button class="button" onclick="plusProjectItems(-1)">&#10094;</button>
+                    <a href="#"><li class= "projectitems"> 
+                      <!--  <img src="/images/1.jpg"   width="90%"   >
+                         -->
+                         <span>Project 1</span>
+                    
+                    </li></a>
+                    <a href="#"><li class= "projectitems" >Project 2 </li></a>
+                    <a href="#"><li class= "projectitems">Project 3 </li></a>
+                    <a href="#"><li class= "projectitems">Project 4 </li></a>
+                    <a href="#"><li class= "projectitems">Project 5 </li></a>
+                    
+                    <button class="button" onclick="plusProjectItems(1)">&#10095;</button>
+                    
+                </ul>
+            </section>
+            <section class="skills">
+                <p id="heading">Skills</p>
+                <ul>
+                   
+                    <li class="skillItems">HTML</li>
+                    <li class="skillItems">CSS</li>
+                    <li class="skillItems">JavaScript</li>
+                    <li class="skillItems">Python</li>
+                    <li class="skillItems">React</li>
+                 
+                </ul>
+            </section>
+
+
+
+        </div>
+
+
+
+    </main>
+
+    <footer>
+        <!-- Your footer content goes here -->
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
